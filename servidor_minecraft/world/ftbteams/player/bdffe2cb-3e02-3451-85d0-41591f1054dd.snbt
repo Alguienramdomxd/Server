@@ -1,0 +1,17 @@
+{
+	id: "bdffe2cb-3e02-3451-85d0-41591f1054dd"
+	type: "player"
+	player_name: "elpropio12"
+	ranks: {
+		bdffe2cb-3e02-3451-85d0-41591f1054dd: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "elpropio12"
+		"ftbteams:description": ""
+		"ftbteams:color": "#7AFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

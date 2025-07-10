@@ -1,0 +1,461 @@
+[10Jul2025 19:35:26.892] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[10Jul2025 19:35:26.896] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[10Jul2025 19:35:33.637] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[10Jul2025 19:35:33.765] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[10Jul2025 19:35:34.379] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[10Jul2025 19:35:34.381] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[10Jul2025 19:35:34.382] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[10Jul2025 19:35:34.383] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[10Jul2025 19:35:34.781] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
+[10Jul2025 19:35:37.265] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10Jul2025 19:35:37.427] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[10Jul2025 19:35:37.429] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[10Jul2025 19:35:37.440] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Jul2025 19:35:37.694] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.2+mc1.20.1: 87 options available, 0 override(s) found
+[10Jul2025 19:35:37.695] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[10Jul2025 19:35:37.710] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[10Jul2025 19:35:37.877] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Jul2025 19:35:37.919] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Jul2025 19:35:39.635] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[10Jul2025 19:35:40.376] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (19.89 s after launch)
+[10Jul2025 19:35:40.585] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[10Jul2025 19:35:40.585] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[10Jul2025 19:35:42.465] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2086 milliseconds
+[10Jul2025 19:35:45.650] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod easymagic
+[10Jul2025 19:35:45.805] [modloading-worker-0/INFO] [Dungeon Now Loading/]: Hello Forge world!
+[10Jul2025 19:35:45.882] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[10Jul2025 19:35:45.885] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[10Jul2025 19:35:45.887] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[10Jul2025 19:35:45.888] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[10Jul2025 19:35:45.889] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[10Jul2025 19:35:45.890] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[10Jul2025 19:35:45.893] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[10Jul2025 19:35:45.897] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[10Jul2025 19:35:45.908] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[10Jul2025 19:35:45.909] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[10Jul2025 19:35:46.440] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[10Jul2025 19:35:46.550] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.92.
+[10Jul2025 19:35:46.748] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[10Jul2025 19:35:46.754] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
+[10Jul2025 19:35:46.785] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[10Jul2025 19:35:46.808] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[10Jul2025 19:35:46.811] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[10Jul2025 19:35:46.812] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[10Jul2025 19:35:46.813] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[10Jul2025 19:35:46.814] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[10Jul2025 19:35:46.815] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[10Jul2025 19:35:46.823] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[10Jul2025 19:35:49.108] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[10Jul2025 19:35:49.108] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[10Jul2025 19:35:50.277] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[10Jul2025 19:35:50.597] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[10Jul2025 19:35:50.633] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[10Jul2025 19:35:51.054] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[10Jul2025 19:35:51.233] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[10Jul2025 19:35:51.234] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[10Jul2025 19:35:51.233] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[10Jul2025 19:35:51.234] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[10Jul2025 19:35:51.234] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[10Jul2025 19:35:51.234] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[10Jul2025 19:35:51.234] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[10Jul2025 19:35:51.235] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[10Jul2025 19:35:51.234] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[10Jul2025 19:35:51.705] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[10Jul2025 19:35:51.715] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[10Jul2025 19:35:51.716] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[10Jul2025 19:35:51.728] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[10Jul2025 19:35:51.733] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[10Jul2025 19:35:51.735] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[10Jul2025 19:35:51.737] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[10Jul2025 19:35:51.936] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.8 Target: 1.20.1-1.4.13
+[10Jul2025 19:35:51.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Jul2025 19:35:52.089] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[10Jul2025 19:35:52.090] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[10Jul2025 19:35:52.182] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.10.0.1
+[10Jul2025 19:35:52.182] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[10Jul2025 19:35:52.193] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[10Jul2025 19:35:52.193] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[10Jul2025 19:35:52.202] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.2 Target: 9.0.2
+[10Jul2025 19:35:52.203] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[10Jul2025 19:35:52.213] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.0.0 Target: 8.1.32
+[10Jul2025 19:35:52.370] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10Jul2025 19:35:52.677] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23215!/assets/.mcassetsroot' uses unexpected schema
+[10Jul2025 19:35:52.677] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23215!/data/.mcassetsroot' uses unexpected schema
+[10Jul2025 19:35:54.638] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[10Jul2025 19:35:54.743] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.9.2.jar
+[10Jul2025 19:35:54.846] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:is_eyestalker as it is missing following references: #forge:is_end (from enemyexpansion-2.3.1-forge-1.20.1.jar)
+[10Jul2025 19:35:56.104] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[10Jul2025 19:35:56.105] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function enemyexpansion:silver_exes
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 25: ...erfriends <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 25: ...erfriends <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23215!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23215!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[10Jul2025 19:35:56.147] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[10Jul2025 19:35:56.161] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[10Jul2025 19:35:56.199] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[10Jul2025 19:35:56.214] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[10Jul2025 19:35:56.266] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3061 advancements
+[10Jul2025 19:35:56.294] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[10Jul2025 19:35:56.301] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[10Jul2025 19:35:56.458] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[10Jul2025 19:35:56.459] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[10Jul2025 19:35:56.459] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[10Jul2025 19:35:56.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Jul2025 19:35:56.547] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[10Jul2025 19:35:56.574] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[10Jul2025 19:35:56.657] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10Jul2025 19:35:56.657] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[10Jul2025 19:35:56.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10Jul2025 19:35:56.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[10Jul2025 19:35:56.676] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[10Jul2025 19:35:57.045] [Server thread/INFO] [FTB Teams/]: loaded team data: 7 known players, 7 teams total
+[10Jul2025 19:35:57.076] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[10Jul2025 19:35:57.524] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[10Jul2025 19:35:57.525] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[10Jul2025 19:35:58.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Jul2025 19:36:00.085] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 19:36:01.113] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 19:36:01.113] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 19:36:01.113] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 19:36:01.114] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 19:36:01.114] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 19:36:01.330] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2025 19:36:01.780] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3451 ms
+[10Jul2025 19:36:01.781] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.109s)! For help, type "help"
+[10Jul2025 19:36:01.951] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10Jul2025 19:36:01.962] [Server thread/WARN] [ModernFix/]: Dedicated server took 41.478 seconds to load
+[10Jul2025 19:36:28.192] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jorge24d1[/10.147.18.161:50251] logged in with entity id 742 at (-3068.633246675067, 64.0, -896.3243039090761)
+[10Jul2025 19:36:28.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorge24d1 joined the game
+[10Jul2025 19:36:28.361] [Server thread/INFO] [Jade/]: Syncing config to Jorge24d1 (7320a5c6-f4af-39d0-9ff4-2c1dd5923338)
+[10Jul2025 19:37:40.304] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-2726, y=-18, z=-684}
+[10Jul2025 19:37:40.305] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-2724, y=-18, z=-684}
+[10Jul2025 19:37:44.180] [Worker-Main-2/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Spider['Spider'/3915, l='ServerLevel[VENEZUELA]', x=-2629.50, y=-28.00, z=-784.50] as it would cause deadlock
+[10Jul2025 19:37:44.186] [Worker-Main-2/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Spider['Spider'/3918, l='ServerLevel[VENEZUELA]', x=-2629.50, y=-28.00, z=-809.50] as it would cause deadlock
+[10Jul2025 19:37:45.162] [Worker-Main-1/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Spider['Spider'/3994, l='ServerLevel[VENEZUELA]', x=-2621.50, y=-28.00, z=-784.50] as it would cause deadlock
+[10Jul2025 19:37:45.308] [Worker-Main-1/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Spider['Spider'/4005, l='ServerLevel[VENEZUELA]', x=-2621.50, y=-28.00, z=-809.50] as it would cause deadlock
+[10Jul2025 19:37:50.792] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-2531, y=-41, z=-613}
+[10Jul2025 19:37:52.494] [Worker-Main-2/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Spider['Spider'/4260, l='ServerLevel[VENEZUELA]', x=-2476.50, y=-3.00, z=-805.50] as it would cause deadlock
+[10Jul2025 19:37:53.330] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-2557, y=-37, z=-587}
+[10Jul2025 19:37:53.331] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-2556, y=-37, z=-587}
+[10Jul2025 19:37:59.359] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-2618, y=12, z=-450}
+[10Jul2025 19:37:59.360] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-2620, y=12, z=-450}
+[10Jul2025 19:38:02.727] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-2395, y=30, z=-402}
+[10Jul2025 19:38:02.728] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-2395, y=30, z=-403}
+[10Jul2025 19:38:03.306] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=-2453, y=-26, z=-337}
+[10Jul2025 19:38:03.306] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-2453, y=-25, z=-337}
+[10Jul2025 19:38:03.307] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=-2452, y=-26, z=-337}
+[10Jul2025 19:38:03.307] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=-2451, y=-26, z=-337}
+[10Jul2025 19:38:03.308] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-2454, y=-26, z=-335}
+[10Jul2025 19:38:03.308] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-2454, y=-26, z=-336}
+[10Jul2025 19:38:07.393] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-2535, y=10, z=-192}
+[10Jul2025 19:38:07.393] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-2533, y=10, z=-191}
+[10Jul2025 19:38:11.788] [Worker-Main-3/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-2766, y=-38, z=-177}
+[10Jul2025 19:38:47.421] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:47.472] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:47.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:47.576] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:47.626] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:47.676] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:47.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:47.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:47.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:47.875] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:47.923] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:47.974] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.031] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.126] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.177] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.224] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.277] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.325] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.376] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.573] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.624] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.675] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.824] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.872] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.923] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:48.971] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.024] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.174] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.229] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.272] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.336] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.574] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.625] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.674] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.776] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.872] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.924] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:49.974] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.022] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.174] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.224] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.273] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.326] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.378] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.575] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.622] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.677] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.823] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.873] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.927] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:50.975] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.022] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.175] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.223] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.273] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.373] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.430] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.472] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.574] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.622] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.673] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.776] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.823] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.924] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:51.984] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.024] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.176] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.225] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.275] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.432] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.476] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.574] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.624] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.673] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.733] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.875] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.922] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:52.972] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.023] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.080] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.174] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.223] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.372] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.528] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.572] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.623] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.672] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.824] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.875] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.929] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:53.975] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.023] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.077] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.172] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.222] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.291] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.331] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.425] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.479] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.573] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.627] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.674] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.824] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.877] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.934] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:54.974] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.024] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.080] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.128] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.174] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.222] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.273] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.425] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.572] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.623] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.676] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.827] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.874] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.928] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:55.973] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.026] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.075] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.126] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.173] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.225] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.272] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.373] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.572] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.623] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.674] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.771] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.873] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.926] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:56.972] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.027] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.076] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.175] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.224] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.273] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.327] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.372] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.574] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.628] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.673] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.782] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.823] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.874] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.925] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:38:57.981] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 lost connection: Disconnected
+[10Jul2025 19:38:57.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorge24d1 left the game
+[10Jul2025 19:39:16.270] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1dfc0ffe[id=<null>,name=Jorge24d1,properties={},legacy=false] (/10.147.18.161:50411) lost connection: Disconnected
+[10Jul2025 19:39:47.216] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4c8dacd3[id=<null>,name=Jorge24d1,properties={},legacy=false] (/10.147.18.161:50439) lost connection: Disconnected
+[10Jul2025 19:40:01.189] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jorge24d1[/10.147.18.161:50479] logged in with entity id 7077 at (-2748.6081036457417, 63.0, 294.8715106400629)
+[10Jul2025 19:40:01.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorge24d1 joined the game
+[10Jul2025 19:40:01.212] [Server thread/INFO] [Jade/]: Syncing config to Jorge24d1 (7320a5c6-f4af-39d0-9ff4-2c1dd5923338)
+[10Jul2025 19:41:20.327] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.375] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.573] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.625] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.679] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.825] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.880] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.924] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:20.974] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.025] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.176] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.275] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.325] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.375] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.422] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.476] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.575] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.622] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.676] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.875] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.930] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:21.976] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.029] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.076] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.174] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.225] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.274] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.575] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.623] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.673] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.774] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.823] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.875] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.924] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:22.973] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.025] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.073] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.174] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.223] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.272] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.574] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.622] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.674] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.824] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.872] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.928] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:23.975] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:24.029] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 was kicked for floating too long!
+[10Jul2025 19:41:24.077] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorge24d1 lost connection: Disconnected
+[10Jul2025 19:41:24.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorge24d1 left the game
+[10Jul2025 19:41:47.083] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jorge24d1[/10.147.18.161:50577] logged in with entity id 7649 at (-2817.062615892053, 63.6924818974045, 151.09110624028426)
+[10Jul2025 19:41:47.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorge24d1 joined the game
+[10Jul2025 19:41:47.103] [Server thread/INFO] [Jade/]: Syncing config to Jorge24d1 (7320a5c6-f4af-39d0-9ff4-2c1dd5923338)

@@ -1,0 +1,17 @@
+{
+	id: "d5995d0a-8c34-3c3e-b477-4720eb50318a"
+	type: "player"
+	player_name: "Vanegas_SD"
+	ranks: {
+		d5995d0a-8c34-3c3e-b477-4720eb50318a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Vanegas_SD"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFA5"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

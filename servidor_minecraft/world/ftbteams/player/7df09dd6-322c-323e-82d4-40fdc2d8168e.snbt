@@ -1,0 +1,17 @@
+{
+	id: "7df09dd6-322c-323e-82d4-40fdc2d8168e"
+	type: "player"
+	player_name: "ReyesZx"
+	ranks: {
+		7df09dd6-322c-323e-82d4-40fdc2d8168e: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "ReyesZx"
+		"ftbteams:description": ""
+		"ftbteams:color": "#70FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

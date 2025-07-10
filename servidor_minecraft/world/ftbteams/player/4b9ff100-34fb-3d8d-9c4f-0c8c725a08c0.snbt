@@ -1,0 +1,17 @@
+{
+	id: "4b9ff100-34fb-3d8d-9c4f-0c8c725a08c0"
+	type: "player"
+	player_name: "Elpropio12"
+	ranks: {
+		4b9ff100-34fb-3d8d-9c4f-0c8c725a08c0: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Elpropio12"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF598D"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

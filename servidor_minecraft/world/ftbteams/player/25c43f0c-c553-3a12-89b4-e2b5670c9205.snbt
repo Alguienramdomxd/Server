@@ -1,0 +1,17 @@
+{
+	id: "25c43f0c-c553-3a12-89b4-e2b5670c9205"
+	type: "player"
+	player_name: "RubiuSimp"
+	ranks: {
+		25c43f0c-c553-3a12-89b4-e2b5670c9205: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "RubiuSimp"
+		"ftbteams:description": ""
+		"ftbteams:color": "#B9FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
